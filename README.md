@@ -1,4 +1,4 @@
-### find_content
+### find_content [![HitCount](http://hits.dwyl.io/GiovaLomba/wd.svg?style=plastic)](http://hits.dwyl.io/GiovaLomba/find_content)
 
 It looks for files into the target location whose content matches the 
 given pattern. The name `find_content` has been chosen keeping account
@@ -85,7 +85,7 @@ optional arguments:
 Elapsed time 'find_content':  0.001995 seconds.
 ```
 
-#### Contributions
+#### Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic)](https://github.com/GiovaLomba/find_content/issues)
 
 Contributions are always welcomed. Here a reasonably short list of
 things you can contribute with:
@@ -102,8 +102,13 @@ please request the features, it may be even quick and easy to implement.
 
 #### Download
 
- + Windows 10 x64: file_content
- + Mac OS X 10.14: file_content
+ + [Windows 10 amd64](https://github.com/GiovaLomba/find_content/raw/master/find_content.exe)
+   - **MD5**      |da07de77cfd32fc876703166291c3f0a|
+   - **SHA256**   |cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda|
+   
+ + ![Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/find_content_osx)
+   - **MD5**      ||
+   - **SHA256**   ||
  
 #### Powered by
 

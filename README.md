@@ -1,2 +1,115 @@
-# find_content
-Yet another search tool?
+### find_content
+
+It looks for files into the target location whose content matches the 
+given pattern. The name `find_content` has been chosen keeping account
+of the comprise between having a meaningful name and typing laziness.
+
+#### Why YAFT (Yet Another Find Tool)?
+
+Looking for files is easy, looking into files it's a bit less easy.
+Personally I've not very clear all assumptions and configuration the
+modern operating systems and their shipped utilities apply during
+content search. So, to be in control, here are some reason:
+
++ **Flexibility**: I can search patterns into binaries maybe using
+  regex.
++ **Filtering**: Metadata filtering, creation, access, edit, file size,
+  ecc.
++ **Control**: Knowing exactly what is happening controlling verbosity.
++ **Multiprocessing**: You can feel a bit like the gladiator when: *At
+  my signal, unleash hell!*
++ **BS 1**: I wanted to revamp and improve a more than five year old
+  search software.
++ **BS 2**: I could do it, so I did it.
+
+#### Reasonable defaults?
+
+The following is a list (not necessarily exhaustive) of settings the 
+software application implements as defaults behaviours:
+
+-  It skips binary files.
+ - It skips files greater than `100MB`.
+-  By default it uses `1` single process in a sequential fashion.
+ 
+ You knows: *good fences make good neighbours!*
+ 
+#### How does it works?
+
+Here you can learn about the features the `find_content` application
+exposes to the users, how and when should they be used.
+
+```
+(c) 2019 Giovanni Lombardo mailto://g.lombardo@protonmail.com
+find_content version 1.0.0
+
+usage: find_content [-h] [-b] [-e [EXTS [EXTS ...]]] [-sd [SD [SD ...]]]
+                 [-sf [SF [SF ...]]] [-gt [SGT]] [-lt [SLT]] [-bf [BEFORE]]
+                 [-af [AFTER]] [-ac] [-ae] [-aa] [-p [PROC]] [-v]
+                 [location] [pattern]
+
+It looks for files into the target location whose content matches the given pattern.
+
+defaults behaviours:
+ - skip binary files.
+ - skip files greater than 100MB.
+ - #cpu parallel processes.
+
+positional arguments:
+  location              The location to look for matching items.
+  pattern               The pattern to look for into items content.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b, --binary          Allows searching into binary files.
+  -e [EXTS [EXTS ...]], --extensions [EXTS [EXTS ...]]
+                        The list of file extensions to be considered (others are skipped).
+  -sd [SD [SD ...]], --skip-dirs [SD [SD ...]]
+                        The list of directory patterns that will be ignored.
+  -sf [SF [SF ...]], --skip-files [SF [SF ...]]
+                        The list of file patterns that will be ignored.
+  -gt [SGT], --skip-gt [SGT]
+                        The maximum size (in B) of considered files (others are skipped).
+  -lt [SLT], --skip-lt [SLT]
+                        The minimum size (in B) of considered files (others are skipped).
+  -bf [BEFORE], --before [BEFORE]
+                        The 'before' reference date in the format %Y-%m-%d %H:%M
+  -af [AFTER], --after [AFTER]
+                        The 'after' reference date in the format %Y-%m-%d %H:%M
+  -ac, --created        When given it evaluates the created attribute of selected files.
+  -ae, --edited         When given it evaluates edit attribute of selected files.
+  -aa, --accessed       When given it evaluates last access attribute of selected files.
+  -p [PROC], --processes [PROC]
+                        The number of processes to start for the task.
+  -v, --verbose         Logs verbose output (really slow).
+  
+Elapsed time 'find_content':  0.001995 seconds.
+```
+
+#### Contributions
+
+Contributions are always welcomed. Here a reasonably short list of
+things you can contribute with:
+
++ You find a misbehaviour (aka bug): please report the issue so that it
+can be fixed and all can benefits of the fix.
+
++ The software has been tested only on the OS versions mentioned below:
+if you use the software on other platforms and it works, please report
+the fact so that the documentation can be updated.
+
++ You would like the application to be able to do something it does not:
+please request the features, it may be even quick and easy to implement.
+
+#### Download
+
+ + Windows 10 x64: file_content
+ + Mac OS X 10.14: file_content
+ 
+#### Powered by
+
+![Python](https://www.python.org/static/img/python-logo.png "Python")
+<br/> 
+
+<!--
+![PyInstaller](https://www.pyinstaller.org/_images/pyinstaller-draft1c-header-trans.png)
+-->

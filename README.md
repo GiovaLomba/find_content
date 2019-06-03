@@ -107,8 +107,8 @@ please request the features, it may be even quick and easy to implement.
    - **SHA256**   |cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda|
    
  + ![Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/find_content_osx)
-   - **MD5**      ||
-   - **SHA256**   ||
+   - **MD5**      |731bb760759c8e7a0a8978a709101f24|
+   - **SHA256**   |139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213|
  
 #### Powered by
 

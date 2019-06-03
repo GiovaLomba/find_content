@@ -1,4 +1,4 @@
-### find_content [![HitCount](http://hits.dwyl.io/GiovaLomba/wd.svg?style=plastic)](http://hits.dwyl.io/GiovaLomba/find_content)
+## find_content [![HitCount](http://hits.dwyl.io/GiovaLomba/wd.svg?style=plastic)](http://hits.dwyl.io/GiovaLomba/find_content)
 
 It looks for files into the target location whose content matches the 
 given pattern. The name `find_content` has been chosen keeping account

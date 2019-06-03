@@ -100,6 +100,10 @@ the fact so that the documentation can be updated.
 + You would like the application to be able to do something it does not:
 please request the features, it may be even quick and easy to implement.
 
++ You can write tutorial on specific or uninteded usages of the software.
+
++ You can enrich the documentation with real usage example and use cases.
+
 #### Download
 
  + [Windows 10 amd64](https://github.com/GiovaLomba/find_content/raw/master/find_content.exe)

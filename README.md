@@ -4,7 +4,7 @@ It looks for files into the target location whose content matches the
 given pattern. The name `find_content` has been chosen keeping account
 of the comprise between having a meaningful name and typing laziness.
 
-#### Why YAFT (Yet Another Find Tool)?
+#### Why YAST (Yet Another Search Tool)?
 
 Looking for files is easy, looking into files it's a bit less easy.
 Personally I've not very clear all assumptions and configuration the

@@ -115,9 +115,9 @@ please request the features, it may be even quick and easy to implement.
    
    
  + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/find_content_osx)
-   - **MD5**        |731bb760759c8e7a0a8978a709101f24|
-   - **SHA256**     |139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213|
-   - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213/detection)|
+   - **MD5**        |23be3e910a9443fd19bda53c0f73cce3|
+   - **SHA256**     |00af41fd4d69ba318ce75e11b991322ead9815f91b3e2ecfe597c1e47ba6d2e2|
+   - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/00af41fd4d69ba318ce75e11b991322ead9815f91b3e2ecfe597c1e47ba6d2e2/detection)|
    
 ##### Version 1.0.0 [initial]
 
@@ -127,7 +127,7 @@ please request the features, it may be even quick and easy to implement.
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda/detection)|
    
    
- + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/v_1.0.0/find_content_osx)
+ + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/v_1.1.0/find_content_osx)
    - **MD5**        |731bb760759c8e7a0a8978a709101f24|
    - **SHA256**     |139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213|
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213/detection)|

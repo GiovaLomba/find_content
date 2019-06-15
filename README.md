@@ -114,7 +114,7 @@ please request the features, it may be even quick and easy to implement.
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/a0254794797b15260e0e32236431f5d02c2bdcf187ab0c065aa7e401549e6c28/detection)|
    
    
- + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/find_content_osx)
+ + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/v_1.1.0/find_content_osx)
    - **MD5**        |23be3e910a9443fd19bda53c0f73cce3|
    - **SHA256**     |00af41fd4d69ba318ce75e11b991322ead9815f91b3e2ecfe597c1e47ba6d2e2|
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/00af41fd4d69ba318ce75e11b991322ead9815f91b3e2ecfe597c1e47ba6d2e2/detection)|

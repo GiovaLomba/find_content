@@ -40,7 +40,7 @@ exposes to the users, how and when should they be used.
 
 ```
 (c) 2019 Giovanni Lombardo mailto://g.lombardo@protonmail.com
-find_content version 1.0.0
+find_content version 1.1.0
 
 usage: find_content [-h] [-b] [-e [EXTS [EXTS ...]]] [-sd [SD [SD ...]]]
                  [-sf [SF [SF ...]]] [-gt [SGT]] [-lt [SLT]] [-bf [BEFORE]]
@@ -106,16 +106,12 @@ please request the features, it may be even quick and easy to implement.
 
 #### Downloads
 
-##### Version 1.1.0
+##### Version 1.1.0 [average 4% faster]
 
-###### Changelog:
-
- + Added mmap usage for better I/O (leads to average 4% speed up)
-
- + [Windows 10 amd64](https://github.com/GiovaLomba/find_content/raw/master/find_content.exe)
-   - **MD5**        |da07de77cfd32fc876703166291c3f0a|
-   - **SHA256**     |cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda|
-   - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda/detection)|
+ + [Windows 10 amd64](https://github.com/GiovaLomba/find_content/raw/master/v_1.1.0/find_content.exe)
+   - **MD5**        |00ebb9c52b03b9de3c164f3e2432c823|
+   - **SHA256**     |a0254794797b15260e0e32236431f5d02c2bdcf187ab0c065aa7e401549e6c28|
+   - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/a0254794797b15260e0e32236431f5d02c2bdcf187ab0c065aa7e401549e6c28/detection)|
    
    
  + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/find_content_osx)
@@ -123,19 +119,15 @@ please request the features, it may be even quick and easy to implement.
    - **SHA256**     |139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213|
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213/detection)|
    
-##### Version 1.0.0
+##### Version 1.0.0 [initial]
 
-###### Changelog:
-
- + Initial version
-
- + [Windows 10 amd64](https://github.com/GiovaLomba/find_content/raw/master/find_content.exe)
+ + [Windows 10 amd64](https://github.com/GiovaLomba/find_content/raw/master/v_1.0.0/find_content.exe)
    - **MD5**        |da07de77cfd32fc876703166291c3f0a|
    - **SHA256**     |cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda|
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/cd76e8c7395b7f477167c186bc86facee92ced0d05429b64c2479ac7f7a22fda/detection)|
    
    
- + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/find_content_osx)
+ + [Mac OS X 10.14](https://github.com/GiovaLomba/find_content/raw/master/v_1.0.0/find_content_osx)
    - **MD5**        |731bb760759c8e7a0a8978a709101f24|
    - **SHA256**     |139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213|
    - **VirusTotal** |[VirusTotal](https://www.virustotal.com/gui/file/139904f340379b7487f9988a3d4419b339377973997c790a1d136eee91453213/detection)|

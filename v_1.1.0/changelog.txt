@@ -1,1 +1,2 @@
-
+Added memory mapping for better I/O (4% faster)
+Added checking for empty files (mmap on empty leads to exceptions on Win)
